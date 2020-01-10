@@ -73,6 +73,8 @@ export default class PersonList extends React.Component {
                 const persons = res.data;
                 //console.log(res);
                 this.setState({ dataSource: persons });
+            }).catch(err => {
+                
             })
     }
     showConfirm(e) {

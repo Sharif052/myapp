@@ -110,6 +110,36 @@ export default {
               component: './table',
             },
             {
+              path: '/step',
+              name: 'step',
+              icon: 'smile',
+              component: './step',
+            },
+            {
+              path: '/menu',
+              name: 'menu',
+              icon: 'smile',
+              component: './menu',
+            },
+            {
+              path: '/bulk',
+              name: 'bulk',
+              icon: 'smile',
+              component: './bulk',
+            },
+            {
+              path: '/temp',
+              name: 'temp',
+              icon: 'smile',
+              component: './temp',
+            },
+            {
+              path: '/step2',
+              name: 'step2',
+              icon: 'smile',
+              component: './step2',
+            },
+            {
               path: '/admin',
               name: 'admin',
               icon: 'crown',
